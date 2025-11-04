@@ -1,0 +1,25 @@
+﻿.tab-content {
+    display: none;
+}
+
+.active-tab {
+    display: block;
+}
+
+.tab-button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
+    font-size: 14px;
+    border-color: black;
+    display: inline-block;
+    margin-right: 5px;
+    opacity: 45%;
+    color: white;
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .tab-button:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }

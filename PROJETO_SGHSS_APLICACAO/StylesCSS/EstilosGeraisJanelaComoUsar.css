@@ -1,0 +1,103 @@
+﻿footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Certifique-se de que o rodapé comece da borda esquerda */
+    width: 100%;
+    margin: 0; /* Margem zero para evitar espaçamento indesejado */
+    padding: 0; /* Preenchimento zero para evitar espaçamento indesejado */
+    height: 30px; /* Defina a altura do rodapé conforme necessário */
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center;
+    line-height: 35px; /* Centralizar verticalmente o conteúdo do rodapé */
+    font-size: small;
+    font-family: Arial;
+    opacity: 70%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0; /* Certifique-se de que o rodapé comece da borda esquerda */
+    width: 100%;
+    margin: 0; /* Margem zero para evitar espaçamento indesejado */
+    padding: 0; /* Preenchimento zero para evitar espaçamento indesejado */
+    height: 50px; /* Defina a altura do rodapé conforme necessário */
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center;
+    line-height: 50px; /* Centralizar verticalmente o conteúdo do rodapé */
+    font-size: x-large;
+    font-family: Arial;
+    opacity: 70%;
+}
+
+body {
+    display: flex; /* Define o display como flex */
+}
+
+.custom-font {
+    font-family: "Arial", arial; /* Especifica a fonte personalizada */
+}
+
+.alinhamento-text-center {
+    text-align: center; /* Centraliza horizontalmente */
+}
+
+.cantos-arredondados-hand {
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+}
+
+.cantos-arredondados-alinhamento {
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    text-align: center; /* Centraliza horizontalmente */
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+}
+
+.cantos-arredondados-alinhamento-imagem {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    text-align: right; /* Centraliza horizontalmente */
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background: #3CB371;
+    border: 2px solid #2E8B57;
+    color: white;
+    padding: 10px 20px;
+}
+
+.cantos-arredondados-alinhamento-imagem-como-usar {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    text-align: left; /* Centraliza horizontalmente */
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background: #87bdd8;
+    border: 2px solid #4682b4;
+    color: white;
+    padding: 10px 20px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.active-tab {
+    display: block;
+}
+
+.tab-button {
+    cursor: pointer;
+    padding: 10px;
+    background: black;
+    border: black;
+    border-radius: 10px;
+    opacity: 45%;
+    color: white;
+    display: inline-block;
+    margin-right: 5px;
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .tab-button:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }

@@ -1,0 +1,366 @@
+﻿footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Certifique-se de que o rodapé comece da borda esquerda */
+    width: 100%;
+    margin: 0; /* Margem zero para evitar espaçamento indesejado */
+    padding: 0; /* Preenchimento zero para evitar espaçamento indesejado */
+    height: 30px; /* Defina a altura do rodapé conforme necessário */
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center;
+    line-height: 35px; /* Centralizar verticalmente o conteúdo do rodapé */
+    font-size: small;
+    font-family: Arial;
+    opacity: 70%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0; /* Certifique-se de que o rodapé comece da borda esquerda */
+    right: 0;
+    width: 100%;
+    margin: 0; /* Margem zero para evitar espaçamento indesejado */
+    padding: 0; /* Preenchimento zero para evitar espaçamento indesejado */
+    height: 50px; /* Defina a altura do rodapé conforme necessário */
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center;
+    line-height: 50px; /* Centralizar verticalmente o conteúdo do rodapé */
+    font-size: x-large;
+    font-family: Arial;
+    opacity: 70%;
+}
+
+body {
+    display: flex; /* Define o display como flex */
+}
+
+.custom-font {
+    font-family: "Arial", arial; /* Especifica a fonte personalizada */
+}
+
+.cantos-arredondados-alinhamento-center {
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    text-align: center; /* Centraliza horizontalmente */
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+}
+
+.painel-Botoes {
+    background-color: #191f26;
+    border: 1px solid #191f26;
+    border-radius: 10px;
+    opacity: 85%;
+}
+
+.btn-Audio-Convencional {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/AudioConvencional.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Audio-Convencional:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Audio-Completa {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/AudioCompleta.jpg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Audio-Completa:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Audio-Comportamental {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/AudioComportamentalpng.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Audio-Comportamental:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Audio-Campo {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/AudioCampo.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Audio-Campo:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Audio-Campo-Conven {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/AudiometriaCampoConven.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Audio-Campo-Conven:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Condicionada-Infantil {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/audiometriaInfantil.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Condicionada-Infantil:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Altas-frequencias {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/fones.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Altas-frequencias:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Ocupacional {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/capaceteConcha.jpg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Ocupacional:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Acufenometria {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/acufenometria.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Acufenometria:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Desconforto {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/limiarDesconforto.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Desconforto:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Impepanciometria {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/impedanciometria.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Impepanciometria:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Teste-Funcao-Tubaria {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/sondaImpedancio.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Teste-Funcao-Tubaria:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Teste-TEN {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/testeTEN.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Teste-TEN:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Teste-Decay {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/novaImagemDecay.PNG');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Teste-Decay:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Teste-Tullio {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/novaImagemTullio.PNG');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Teste-Tullio:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Teste-Hennebert {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border: 2px solid #191970;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/novaImagemHennebert.PNG');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Teste-Hennebert:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-POP {
+    width: 350px;
+    height: 30px;
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    /*background-image: url('/Images/iconeEncerraSistema.png');*/
+    border-radius: 20px; /* Valor do raio dos cantos arredondados */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px; /* Ajuste o tamanho da imagem conforme necessário */
+    background-color: #333;
+    border: 2px solid white;
+    color: #333;
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-POP:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Encerra-Sistema {
+    width: 40px;
+    height: 40px;
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Images/iconeEncerraSistema.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px; /* Ajuste o tamanho da imagem conforme necessário */
+    background-color: #333;
+    border: 1px solid #363636;
+    color: #333;
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Encerra-Sistema:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
