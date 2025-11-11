@@ -138,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="ProntuarioClinico.aspx" />
     <Content Include="CadastroInicial.aspx" />
     <Content Include="Aplicativos.aspx" />
     <Content Include="Images\add.png" />
@@ -185,7 +186,7 @@
     <Content Include="Images\receituario.png" />
     <Content Include="Images\recepcao.png" />
     <Content Include="Images\voltaTelaAplicativos.png" />
-    <Content Include="ComoUsar.aspx" />
+    <Content Include="CadastrarUsuario.aspx" />
     <Content Include="ScriptsJS\AcoesAbas.js" />
     <Content Include="ScriptsJS\AcoesCamposImpedancio.js" />
     <Content Include="ScriptsJS\AcoesGeraisAltFreqB.js" />
@@ -201,7 +202,7 @@
     <Content Include="StylesCSS\AbasPaginasJanelasAudioImp.css" />
     <Content Include="StylesCSS\EstilosGeraisJanelaAplicativos.css" />
     <Content Include="StylesCSS\EstilosGeraisJanelaCadastroInicial.css" />
-    <Content Include="StylesCSS\EstilosGeraisJanelaComoUsar.css" />
+    <Content Include="StylesCSS\EstilosGeraisJanelaCadastroUsuario.css" />
     <Content Include="StylesCSS\EstilosGeraisJanelaExames.css" />
     <Content Include="StylesCSS\EstilosGeraisJanelaLoginSeg.css" />
     <Content Include="StylesCSS\EstilosGeraisJanelaLogin.css" />
@@ -352,6 +353,14 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DropDownLists\DropDownData_ProfissionalSetor.cs" />
+    <Compile Include="ProntuarioClinico.aspx.cs">
+      <DependentUpon>ProntuarioClinico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProntuarioClinico.aspx.designer.cs">
+      <DependentUpon>ProntuarioClinico.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CadastroInicial.aspx.cs">
       <DependentUpon>CadastroInicial.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -377,12 +386,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="ClasseCredenciais\CredenciaisUsuario.cs" />
-    <Compile Include="ComoUsar.aspx.cs">
-      <DependentUpon>ComoUsar.aspx</DependentUpon>
+    <Compile Include="CadastrarUsuario.aspx.cs">
+      <DependentUpon>CadastrarUsuario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ComoUsar.aspx.designer.cs">
-      <DependentUpon>ComoUsar.aspx</DependentUpon>
+    <Compile Include="CadastrarUsuario.aspx.designer.cs">
+      <DependentUpon>CadastrarUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

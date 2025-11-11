@@ -32,7 +32,7 @@ namespace PROJETO_SGHSS
                 if (!(String.IsNullOrEmpty(txtNomePaciente.Text) || String.IsNullOrEmpty(txtDataNasc.Text) || String.IsNullOrEmpty(txtIdade.Text)))
                 {
                     EnviaDadosPaciente();
-                    Response.Redirect("Exames.aspx");
+                    RedirecionaTela();
                 }
                 else
                 {
@@ -96,6 +96,30 @@ namespace PROJETO_SGHSS
             Session["ssnDocumento"] = txtDocumento.Text;
             Session["ssnInspecaoMAE"] = txtInspeMAE.Text;
             Session["ssnQueixasClinicas"] = txtQueixasClinicas.Text;
+        }
+
+        private void RedirecionaTela()
+        {
+            // Define o URL para onde você deseja redirecionar
+            string url = "ProntuarioClinico.aspx";
+
+            // Verifica se o usuário está em um dispositivo móvel
+            bool isMobileDevice = Request.Browser.IsMobileDevice;
+
+            // Cria o script JavaScript para abrir uma nova guia ou janela
+            string script;
+            if (isMobileDevice)
+            {
+                Response.Redirect(url);
+            }
+            else
+            {
+                // Se for um navegador de desktop, abre em uma nova janela
+                script = "window.open('" + url + "', '_blank', 'width=900,height=700');";
+
+                // Registra o script no cliente para ser executado
+                ClientScript.RegisterStartupScript(this.GetType(), "OpenWindow", script, true);
+            }
         }
     }
 }

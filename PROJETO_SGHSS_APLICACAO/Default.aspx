@@ -42,7 +42,7 @@
                         <asp:Button ID="btnEntrar" runat="server" Text="Acessar!" Width="80%" Height="50px" ForeColor="#1C1C1C" Font-Bold="true" Font-Size="14" CssClass="btn-Entrar" OnClick="btnEntrar_Click" />
                         <br />
                         <br />
-                        <asp:Button ID="btnInstrucoes" runat="server" Text="Como usar?" Width="55%" Height="50px" ForeColor="MidnightBlue" Font-Bold="true" Font-Size="14" CssClass="btn-Como-Usar" OnClick="btnInstrucoes_Click" />
+                        <asp:Button ID="btnCadastrarusuario" runat="server" Text="Cadastrar Usuário" Width="55%" Height="50px" ForeColor="MidnightBlue" Font-Bold="true" Font-Size="14" CssClass="btn-Cadastrar-Usuario" OnClick="btnCadastrarUsuario_Click" />
                         <label></label>
                         <asp:Button ID="btnLimpar" runat="server" Text="Reiniciar" Width="25%" Height="50px" ForeColor="#800000" Font-Bold="true" Font-Size="14" CssClass="btn-Limpar" OnClick="btnLimpar_Click" />
                         <br />

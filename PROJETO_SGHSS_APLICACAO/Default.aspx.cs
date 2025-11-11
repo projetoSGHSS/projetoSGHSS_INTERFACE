@@ -100,7 +100,7 @@ namespace PROJETO_SGHSS
             }
         }
 
-        protected void btnInstrucoes_Click(object sender, EventArgs e)
+        protected void btnCadastrarUsuario_Click(object sender, EventArgs e)
         {
             RedirecionaTela();
         }
@@ -108,9 +108,25 @@ namespace PROJETO_SGHSS
         private void RedirecionaTela()
         {
             // Define o URL para onde você deseja redirecionar
-            string url = "ComoUsar.aspx";
+            string url = "CadastrarUsuario.aspx";
 
-            Response.Redirect(url);
+            // Verifica se o usuário está em um dispositivo móvel
+            bool isMobileDevice = Request.Browser.IsMobileDevice;
+
+            // Cria o script JavaScript para abrir uma nova guia ou janela
+            string script;
+            if (isMobileDevice)
+            {
+                Response.Redirect(url);
+            }
+            else
+            {
+                // Se for um navegador de desktop, abre em uma nova janela
+                script = "window.open('" + url + "', '_blank', 'width=900,height=700');";
+
+                // Registra o script no cliente para ser executado
+                ClientScript.RegisterStartupScript(this.GetType(), "OpenWindow", script, true);
+            }
         }
 
         protected void btnLimpar_Click(object sender, EventArgs e)

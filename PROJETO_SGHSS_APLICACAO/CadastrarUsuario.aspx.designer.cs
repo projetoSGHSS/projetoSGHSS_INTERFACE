@@ -11,7 +11,7 @@ namespace PROJETO_SGHSS
 {
 
 
-    public partial class Default
+    public partial class CadastrarUsuario
     {
 
         /// <summary>
@@ -33,13 +33,13 @@ namespace PROJETO_SGHSS
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl geral;
 
         /// <summary>
-        /// Controle tbLogin.
+        /// Controle tbComoUsar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table tbLogin;
+        protected global::System.Web.UI.WebControls.Table tbComoUsar;
 
         /// <summary>
         /// Controle imgUsuarios.
@@ -51,66 +51,84 @@ namespace PROJETO_SGHSS
         protected global::System.Web.UI.WebControls.Image imgUsuarios;
 
         /// <summary>
-        /// Controle lblModulo.
+        /// Controle lblUsuario.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblModulo;
+        protected global::System.Web.UI.WebControls.Label lblUsuario;
 
         /// <summary>
-        /// Controle rblProfissionais.
+        /// Controle txtNomeUsuario.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblProfissionais;
+        protected global::System.Web.UI.WebControls.TextBox txtNomeUsuario;
 
         /// <summary>
-        /// Controle btnEntrar.
+        /// Controle lblProfissional.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEntrar;
+        protected global::System.Web.UI.WebControls.Label lblProfissional;
 
         /// <summary>
-        /// Controle btnCadastrarusuario.
+        /// Controle ddlTipoProfissional.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCadastrarusuario;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTipoProfissional;
 
         /// <summary>
-        /// Controle btnLimpar.
+        /// Controle lblMatriculaProfissional.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLimpar;
+        protected global::System.Web.UI.WebControls.Label lblMatriculaProfissional;
 
         /// <summary>
-        /// Controle imgLoading.
+        /// Controle txtMatriculaProfissional.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgLoading;
+        protected global::System.Web.UI.WebControls.TextBox txtMatriculaProfissional;
 
         /// <summary>
-        /// Controle btnParceiros.
+        /// Controle lblSenhaProfissional.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnParceiros;
+        protected global::System.Web.UI.WebControls.Label lblSenhaProfissional;
+
+        /// <summary>
+        /// Controle txtSenhaProfissional.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSenhaProfissional;
+
+        /// <summary>
+        /// Controle btnFinalizarCadastro.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnFinalizarCadastro;
     }
 }

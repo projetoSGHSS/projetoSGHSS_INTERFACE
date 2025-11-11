@@ -87,7 +87,7 @@ body {
         transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
     }
 
-.btn-Como-Usar {
+.btn-Cadastrar-Usuario {
     cursor: pointer; /* Altera o cursor para a forma de uma mão */
     border-radius: 10px; /* Valor do raio dos cantos arredondados */
     text-align: left; /* Centraliza horizontalmente */
@@ -102,7 +102,7 @@ body {
     padding: 10px 20px;
     transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
 }
-    .btn-Como-Usar:hover {
+    .btn-Cadastrar-Usuario:hover {
         transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
     }
 

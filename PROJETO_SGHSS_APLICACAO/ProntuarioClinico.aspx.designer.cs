@@ -11,7 +11,7 @@ namespace PROJETO_SGHSS
 {
 
 
-    public partial class ComoUsar
+    public partial class ProntuarioClinico
     {
 
         /// <summary>
@@ -51,12 +51,12 @@ namespace PROJETO_SGHSS
         protected global::System.Web.UI.WebControls.Image imgUsuarios;
 
         /// <summary>
-        /// Controle btnLinkPortfolio.
+        /// Controle btnFinalizarCadastro.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLinkPortfolio;
+        protected global::System.Web.UI.WebControls.Button btnFinalizarCadastro;
     }
 }

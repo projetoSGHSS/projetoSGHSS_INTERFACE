@@ -50,7 +50,7 @@ body {
 }
 
 .cantos-arredondados-alinhamento {
-    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    border-radius: 0px; /* Valor do raio dos cantos arredondados */
     text-align: center; /* Centraliza horizontalmente */
     line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
 }
@@ -65,6 +65,9 @@ body {
     color: white;
     padding: 10px 20px;
 }
+    .cantos-arredondados-alinhamento-imagem:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
 
 .cantos-arredondados-alinhamento-imagem-como-usar {
     cursor: pointer; /* Altera o cursor para a forma de uma mão */
@@ -75,6 +78,12 @@ body {
     border: 2px solid #4682b4;
     color: white;
     padding: 10px 20px;
+}
+
+.cantos-arredondados-alinhamento-left {
+    border-radius: 0px; /* Valor do raio dos cantos arredondados */
+    text-align: left;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
 }
 
 .tab-content {
