@@ -38,7 +38,7 @@
                                 <asp:Label ID="lblUsuario" runat="server">Nome do usuário:</asp:Label><br />
                                 <asp:TextBox ID="txtNomeUsuario" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" BorderWidth="1" ForeColor="Black" Font-Bold="true" Font-Size="12" Width="78%" Height="38px" CssClass="cantos-arredondados-alinhamento-left "></asp:TextBox><br /><br />
                                 <asp:Label ID="lblProfissional" runat="server">Profissional ou setor:</asp:Label><br />
-                                <asp:DropDownList ID="ddlTipoProfissional" runat="server" Width="79%" Height="38px" BorderColor="Black" BorderStyle="Solid" BorderWidth="1" ForeColor="black" Font-Bold="true" Font-Size="14" CssClass="cantos-arredondados-alinhamento"></asp:DropDownList><br /><br />
+                                <asp:DropDownList ID="ddlTipoProfissional" runat="server" Width="79%" Height="38px" BorderColor="Black" BorderStyle="Solid" BorderWidth="1" ForeColor="black" Font-Bold="true" Font-Size="14" ></asp:DropDownList><br /><br />
                                 <asp:Label ID="lblMatriculaProfissional" runat="server">Matrícula do usuário:</asp:Label><br />
                                 <asp:TextBox ID="txtMatriculaProfissional" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" BorderWidth="1" ForeColor="Black" Font-Bold="true" Font-Size="12" Width="78%" Height="38px" CssClass="cantos-arredondados-alinhamento-left "></asp:TextBox><br /><br />
                                 <asp:Label ID="lblSenhaProfissional" runat="server">Senha do usuário:</asp:Label><br />
@@ -49,7 +49,21 @@
                         </div>
                     </asp:TableHeaderCell>
                 </asp:TableHeaderRow>
-            </asp:Table>
+                <asp:TableRow >
+                    <asp:TableCell Width="100%">
+                    </asp:TableCell>
+                </asp:TableRow>
+            </asp:Table><br /><br />
+            <div style="width: 100%;">
+                <asp:GridView ID="dgvCadastroUsuario" runat="server" Width="100%" AutoGenerateColumns="true" CssClass="table table-striped" GridLines="Horizontal" CellPadding="5" OnRowCreated="dgvCadastroUsuario_RowCreated">
+                    <%--<Columns>
+                        <asp:BoundField DataField="Usuario" HeaderText="Nome do usuário" />
+                        <asp:BoundField DataField="Profissional" HeaderText="Profissional cadastrado" />
+                        <asp:BoundField DataField="Matricula" HeaderText="Matrícula do usuário" />
+                        <asp:BoundField DataField="Senha" HeaderText="Senha do usuário" />
+                    </Columns>--%>
+                </asp:GridView>
+            </div>
         </div>
         <footer>
             <b>Sistema de Gestão Hospitalar e de Serviços de Saúde - SGHSS. Todos os direitos reservados. 2025.</b>

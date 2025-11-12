@@ -50,7 +50,6 @@ body {
 }
 
 .cantos-arredondados-alinhamento {
-    border-radius: 0px; /* Valor do raio dos cantos arredondados */
     text-align: center; /* Centraliza horizontalmente */
     line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
 }
